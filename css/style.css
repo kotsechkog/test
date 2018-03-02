@@ -1,0 +1,189 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?grq12a');
+  src:  url('../fonts/icomoon.eot?grq12a#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?grq12a') format('truetype'),
+    url('../fonts/icomoon.woff?grq12a') format('woff'),
+    url('../fonts/icomoon.svg?grq12a#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-link:before {
+  content: "\e9cb";
+}
+.icon-bookmark:before {
+  content: "\e9d2";
+}
+.icon-google-plus:before {
+  content: "\ea8b";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-dribbble:before {
+  content: "\eaa7";
+}
+.icon-behance2:before {
+  content: "\eaa9";
+}
+
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+}
+
+img {
+	border: 0;
+}
+
+
+a,
+a:hover {
+	text-decoration: none;
+	opacity: 0.8;
+}
+
+form,
+fieldset {
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: url(../image/bg-main.png);
+	max-width: 1400px;
+	margin: 105px ;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+}
+
+
+.firstpage,
+.secondpage {
+	background-color: #fff;
+	max-width: 886px;
+	display: flex;
+	margin-bottom: 28px;
+	border: 2px solid #d6d6d6;
+}
+
+.container {
+	max-width: 655px;
+	margin: 50px 0 50px 33px;
+}
+.container h1 {
+	font-weight: 400;
+	font-size: 28px;
+}
+
+.greytext {
+	color: #989b9f;
+	display: flex;
+	justify-content: space-between;
+}
+
+.greytext a {
+	color: #989b9f;
+	text-decoration: none;
+}
+.container h1 {
+	font-family: 'Yanone+Kaffeesatz';
+}
+
+.visual {
+	display: flex;
+}
+
+.visual img {
+	border: 5px solid #f0f0f0;
+	max-width: 226px;
+}
+
+.visual .image p {
+	color: #d6d6d6;
+}
+
+.visual .content {
+	margin-left: 33px;
+	color: #636060;
+}
+
+.visual .content span {
+	font-family: 'Arial Narrow';
+	font-size: 17px;
+	color: #000;
+}
+
+.autor {
+	width: 20%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	margin: 90px auto;
+}
+
+.autor h1 {
+	margin: 0 0 5px;
+}
+
+.autor .red {
+	color: #e6618c;
+	margin: 0 0 15px;
+}
+
+.autor .image {
+	position: relative;
+	margin: 0 0 37px;
+}
+
+.autor .hover {
+	width: 86px;
+	height: 21px;
+	position: absolute;
+	top: 50%;
+	left: 100%;
+	transform: translateY(-50%);
+	display: none;
+	background: url('../image/figure.png');
+	color: #fff;
+	justify-content: center;
+	align-items: center;
+}
+
+.autor .hover a {
+	margin-left: 10px;
+	color: #fff;
+}
+
+.autor .image:hover .hover{
+	display: flex;
+}
+.autor>a {
+	margin: 0 0 15px;
+	color: #989b9f;
+}
+
+.autor a:hover {
+	transform: scale(1.2);
+}
